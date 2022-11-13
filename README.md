@@ -15,9 +15,9 @@ My program was able to calculate the number of nonisomorphic Decisive Sets for l
 
 One interesting fact is that for Decisive Sets of size 4 and smaller, there is a strict hierarchy of political parties that you would rather be regardless of how everyone else is voting. In the first example, it was A > B = C > D, the second example A > B = C = D, and the family example Mom = Dad > Son = Daughter. For Decisive Sets of size 5 and greater, this breaks down. For example, consider 5 agents sitting at a council like the following:
 
-  A
-E   B
- D C
+.  A
+.E   B
+. D C
 
 Here, A and B sit next to each other, B and C sit next to each other, C and D do, D and E do, and E and A do. Imagine that to pass legislation, 3 adjacent seats must be in agreement. The Decisive Set is {{A, B, C}, {B, C, D}, {C, D, E}, {D, E, A}, {E, A, B}}. Now suppose E and B are in favor of legislation L and C is against it. In this scenario, you would rather be A than D. As A, you alone can decide whether L will pass as the only viable keys in this situation without C's support are {E, A, B} and {D, E, A}. As D, you lack this influence and it still fundamentally depends on A. But if instead E and C support L and B opposes it, you would rather be D. This contrasts with the first example where regardless of the scenario of how others are voting, you would rather be A with 40 votes than any other party.
 
