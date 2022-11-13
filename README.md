@@ -11,7 +11,7 @@ In thinking about legislative bodies like this as having "keys" to power, I was 
 
 This is abstract enough to apply more than just to political parties. You could have a family with a Mom, Dad, Son, and Daughter in which both of the parents can set household rules or one of the parents can as long as that parent has the support of both children. This would be the Decisive Set {{Mom, Dad}, {Mom, Son, Daughter}, {Dad, Son, Daughter}}.
 
-My program was able to calculate the number of nonisomorphic Decisive Sets for legislative bodies with N different political parties upto N=5 as 2, 3, 6, 15, 87. This was enough to pinpoint it in the OEIS as A305857, added in 2018. Ideally it should work for N=6 too, but there is currently a bug causing a crash for 6 and beyond.
+My program was able to calculate the number of nonisomorphic Decisive Sets and print each one for legislative bodies with N different political parties up to N=5 as 2, 3, 6, 15, 87. This was enough to pinpoint it in the OEIS as A305857, added in 2018. Ideally it should work for N=6 too, but there is currently a bug causing a crash for 6 and beyond.
 
 One interesting fact is that for Decisive Sets of size 4 and smaller, there is a strict hierarchy of political parties that you would rather be regardless of how every other party votes. In the first example, it was A > B = C > D, the second example A > B = C = D, and the family example Mom = Dad > Son = Daughter. For Decisive Sets of size 5 and greater, this breaks down.
 
